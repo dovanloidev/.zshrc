@@ -1,5 +1,6 @@
 # .zshrc
 
+```sh
 export ZSH="/Users/loi.do/.oh-my-zsh"
 export PATH=/opt/homebrew/bin:$PATH
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -30,3 +31,4 @@ fortune | cowsay -f tux
 alias installios='cd ios && arch -x86_64 pod install && cd ..'
 alias rnios13pm='npx react-native run-ios --simulator "iPhone 13 Pro Max"'
 alias rniPad125='npx react-native run-ios --simulator "iPad Pro (12.9-inch) (5th generation)"'
+```
